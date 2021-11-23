@@ -9,12 +9,12 @@ import (
 	"testing/fstest"
 	"time"
 
-	"github.com/knadh/koanf"
-	"github.com/knadh/koanf/parsers/hcl"
-	"github.com/knadh/koanf/parsers/json"
-	"github.com/knadh/koanf/parsers/toml"
-	"github.com/knadh/koanf/parsers/yaml"
-	"github.com/knadh/koanf/providers/fs"
+	"github.com/Clever/koanf"
+	"github.com/Clever/koanf/parsers/hcl"
+	"github.com/Clever/koanf/parsers/json"
+	"github.com/Clever/koanf/parsers/toml"
+	"github.com/Clever/koanf/parsers/yaml"
+	"github.com/Clever/koanf/providers/fs"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

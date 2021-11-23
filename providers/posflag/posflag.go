@@ -6,8 +6,8 @@ package posflag
 import (
 	"errors"
 
-	"github.com/knadh/koanf"
-	"github.com/knadh/koanf/maps"
+	"github.com/Clever/koanf"
+	"github.com/Clever/koanf/maps"
 	"github.com/spf13/pflag"
 )
 

@@ -6,7 +6,7 @@ package confmap
 import (
 	"errors"
 
-	"github.com/knadh/koanf/maps"
+	"github.com/Clever/koanf/maps"
 )
 
 // Confmap implements a raw map[string]interface{} provider.

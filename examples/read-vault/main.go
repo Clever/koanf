@@ -6,8 +6,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/knadh/koanf"
-	"github.com/knadh/koanf/providers/vault"
+	"github.com/Clever/koanf"
+	"github.com/Clever/koanf/providers/vault"
 )
 
 // Global koanf instance. Use "." as the key path delimiter. This can be "/" or any character.

@@ -3,7 +3,7 @@ package nestedtext_test
 import (
 	"testing"
 
-	"github.com/knadh/koanf/parsers/nestedtext"
+	"github.com/Clever/koanf/parsers/nestedtext"
 )
 
 func TestParser(t *testing.T) {

@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/Clever/koanf/maps"
 	"github.com/hashicorp/vault/api"
-	"github.com/knadh/koanf/maps"
 )
 
 type Config struct {

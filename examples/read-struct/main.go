@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/knadh/koanf"
-	"github.com/knadh/koanf/providers/structs"
+	"github.com/Clever/koanf"
+	"github.com/Clever/koanf/providers/structs"
 )
 
 var k = koanf.New(".")

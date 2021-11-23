@@ -6,11 +6,11 @@
 
 koanf comes with built in support for reading configuration from files, command line flags, and environment variables, and can parse JSON, YAML, TOML, and Hashicorp HCL.
 
-[![Build Status](https://travis-ci.com/knadh/koanf.svg?branch=master)](https://travis-ci.com/knadh/koanf) [![GoDoc](https://godoc.org/github.com/knadh/koanf?status.svg)](https://godoc.org/github.com/knadh/koanf) 
+[![Build Status](https://travis-ci.com/Clever/koanf.svg?branch=master)](https://travis-ci.com/Clever/koanf) [![GoDoc](https://godoc.org/github.com/Clever/koanf?status.svg)](https://godoc.org/github.com/Clever/koanf) 
 
 ### Installation
 
-`go get -u github.com/knadh/koanf`
+`go get -u github.com/Clever/koanf`
 
 ### Contents
 
@@ -45,10 +45,10 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/knadh/koanf"
-	"github.com/knadh/koanf/parsers/json"
-	"github.com/knadh/koanf/parsers/yaml"
-	"github.com/knadh/koanf/providers/file"
+	"github.com/Clever/koanf"
+	"github.com/Clever/koanf/parsers/json"
+	"github.com/Clever/koanf/parsers/yaml"
+	"github.com/Clever/koanf/providers/file"
 )
 
 // Global koanf instance. Use "." as the key path delimiter. This can be "/" or any character.
@@ -84,10 +84,10 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/knadh/koanf"
-	"github.com/knadh/koanf/parsers/json"
-	"github.com/knadh/koanf/parsers/yaml"
-	"github.com/knadh/koanf/providers/file"
+	"github.com/Clever/koanf"
+	"github.com/Clever/koanf/parsers/json"
+	"github.com/Clever/koanf/parsers/yaml"
+	"github.com/Clever/koanf/providers/file"
 )
 
 // Global koanf instance. Use "." as the key path delimiter. This can be "/" or any character.
@@ -142,10 +142,10 @@ import (
 	"log"
 	"os"
 
-	"github.com/knadh/koanf"
-	"github.com/knadh/koanf/parsers/toml"
-	"github.com/knadh/koanf/providers/file"
-	"github.com/knadh/koanf/providers/posflag"
+	"github.com/Clever/koanf"
+	"github.com/Clever/koanf/parsers/toml"
+	"github.com/Clever/koanf/providers/file"
+	"github.com/Clever/koanf/providers/posflag"
 	flag "github.com/spf13/pflag"
 )
 
@@ -197,10 +197,10 @@ import (
 	"log"
 	"strings"
 
-	"github.com/knadh/koanf"
-	"github.com/knadh/koanf/parsers/json"
-	"github.com/knadh/koanf/providers/env"
-	"github.com/knadh/koanf/providers/file"
+	"github.com/Clever/koanf"
+	"github.com/Clever/koanf/parsers/json"
+	"github.com/Clever/koanf/providers/env"
+	"github.com/Clever/koanf/providers/file"
 )
 
 // Global koanf instance. Use . as the key path delimiter. This can be / or anything.
@@ -277,9 +277,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/knadh/koanf"
-	"github.com/knadh/koanf/parsers/json"
-	"github.com/knadh/koanf/providers/rawbytes"
+	"github.com/Clever/koanf"
+	"github.com/Clever/koanf/parsers/json"
+	"github.com/Clever/koanf/providers/rawbytes"
 )
 
 // Global koanf instance. Use . as the key path delimiter. This can be / or anything.
@@ -302,9 +302,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/knadh/koanf"
-	"github.com/knadh/koanf/parsers/json"
-	"github.com/knadh/koanf/providers/file"
+	"github.com/Clever/koanf"
+	"github.com/Clever/koanf/parsers/json"
+	"github.com/Clever/koanf/providers/file"
 )
 
 // Global koanf instance. Use . as the key path delimiter. This can be / or anything.
@@ -359,9 +359,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/knadh/koanf"
-	"github.com/knadh/koanf/parsers/json"
-	"github.com/knadh/koanf/providers/file"
+	"github.com/Clever/koanf"
+	"github.com/Clever/koanf/parsers/json"
+	"github.com/Clever/koanf/providers/file"
 )
 
 // Global koanf instance. Use . as the key path delimiter. This can be / or anything.
@@ -425,11 +425,11 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/knadh/koanf"
-	"github.com/knadh/koanf/providers/confmap"
-	"github.com/knadh/koanf/providers/file"
-	"github.com/knadh/koanf/parsers/json"
-	"github.com/knadh/koanf/parsers/yaml"
+	"github.com/Clever/koanf"
+	"github.com/Clever/koanf/providers/confmap"
+	"github.com/Clever/koanf/providers/file"
+	"github.com/Clever/koanf/parsers/json"
+	"github.com/Clever/koanf/parsers/yaml"
 )
 
 // Global koanf instance. Use "." as the key path delimiter. This can be "/" or any character.
@@ -467,8 +467,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/knadh/koanf"
-	"github.com/knadh/koanf/providers/structs"
+	"github.com/Clever/koanf"
+	"github.com/Clever/koanf/providers/structs"
 )
 
 // Global koanf instance. Use "." as the key path delimiter. This can be "/" or any character.
@@ -545,11 +545,11 @@ import (
 	"errors"
 	"log"
 
-	"github.com/knadh/koanf"
-	"github.com/knadh/koanf/maps"
-	"github.com/knadh/koanf/parsers/json"
-	"github.com/knadh/koanf/parsers/yaml"
-	"github.com/knadh/koanf/providers/file"
+	"github.com/Clever/koanf"
+	"github.com/Clever/koanf/maps"
+	"github.com/Clever/koanf/parsers/json"
+	"github.com/Clever/koanf/parsers/yaml"
+	"github.com/Clever/koanf/providers/file"
 )
 
 var conf = koanf.Conf{
@@ -680,7 +680,7 @@ Writing Providers and Parsers are easy. See the bundled implementations in the `
 koanf is a lightweight alternative to the popular [spf13/viper](https://github.com/spf13/viper). It was written as a result of multiple stumbling blocks encountered with some of viper's fundamental flaws.
 
 - viper breaks JSON, YAML, TOML, HCL language specs by [forcibly lowercasing keys](https://github.com/spf13/viper/pull/635).
-- Significantly bloats [build sizes](https://github.com/knadh/koanf/wiki/Comparison-with-spf13-viper).
+- Significantly bloats [build sizes](https://github.com/Clever/koanf/wiki/Comparison-with-spf13-viper).
 - Tightly couples config parsing with file extensions.
 - Has poor semantics and abstractions. Commandline, env, file etc. and various parses are hardcoded in the core. There are no primitives that can be extended.
 - Pulls a large number of [third party dependencies](https://github.com/spf13/viper/issues/707) into the core package. For instance, even if you do not use YAML or flags, the dependencies are still pulled as a result of the coupling.

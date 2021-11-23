@@ -5,10 +5,10 @@ import (
 	"log"
 	"os"
 
-	"github.com/knadh/koanf"
-	"github.com/knadh/koanf/parsers/toml"
-	"github.com/knadh/koanf/providers/file"
-	"github.com/knadh/koanf/providers/posflag"
+	"github.com/Clever/koanf"
+	"github.com/Clever/koanf/parsers/toml"
+	"github.com/Clever/koanf/providers/file"
+	"github.com/Clever/koanf/providers/posflag"
 	flag "github.com/spf13/pflag"
 )
 

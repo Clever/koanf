@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/knadh/koanf"
-	"github.com/knadh/koanf/parsers/json"
-	"github.com/knadh/koanf/providers/file"
+	"github.com/Clever/koanf"
+	"github.com/Clever/koanf/parsers/json"
+	"github.com/Clever/koanf/providers/file"
 )
 
 // Global koanf instance. Use . as the key path delimiter. This can be / or anything.
